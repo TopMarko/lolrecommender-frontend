@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d0dc3edbc1d9885fee28da051f09ecec",
+    "revision": "ca431e7cdd840ed24304be1ede026e53",
     "url": "/lolrecommender-frontend/index.html"
   },
   {
