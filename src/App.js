@@ -1,24 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import Toolbar from '@material-ui/core/Toolbar';
+import RecommenderPage from './RecommenderPage'
+import Button from '@material-ui/core/Button';
+import {Paper, Grid} from '@material-ui/core';
+
+function App() { 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      {/* TODO: Center align */}
+      <Toolbar><h1>Deep LoL</h1 >
+      
+      <Grid container alignItems="flex-start" justify="flex-end" direction="row">
+        {/* <Button color="inherit" style={{justifyContent:"space-between"}}>Donate</Button> */}
+        <a href="https://www.paypal.me/deeplol">
+        <Button variant="contained"style={{backgroundColor:'rgba(0,0,0)', color:"grey", border:"1px solid", borderRadius:"10px", justifyContent:"space-between"}}>
+            Donate!
+          </Button>
         </a>
-      </header>
+        
+      </Grid>
+      
+      </Toolbar>
+
+      
+      <RecommenderPage>
+
+      </RecommenderPage>
     </div>
   );
 }
