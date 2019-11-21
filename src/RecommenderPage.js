@@ -26,7 +26,7 @@ import Fab from '@material-ui/core/Fab';
 
 
     async function fetchChampions() {
-      let response = await fetch('http://ddragon.leagueoflegends.com/cdn/9.22.1/data/en_US/champion.json')
+      let response = await fetch('https://ddragon.leagueoflegends.com/cdn/9.22.1/data/en_US/champion.json')
       response = await response.json()      
       setChampions(response.data)
       setChampNames(Object.keys(response.data))
