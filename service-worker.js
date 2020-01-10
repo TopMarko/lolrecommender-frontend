@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lolrecommender-frontend/precache-manifest.04c7ffebfd337a2c3108bc1aadd7b7c5.js"
+  "/lolrecommender-frontend/precache-manifest.b0947956834f7be8dc7ba4d792d0f1ed.js"
 );
 
 self.addEventListener('message', (event) => {
