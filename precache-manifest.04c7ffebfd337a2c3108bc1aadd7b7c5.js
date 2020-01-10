@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff06a79b3ed7f211209f82209ea1f036",
+    "revision": "e1732847f636f1f93e3372d65c03612c",
     "url": "/lolrecommender-frontend/index.html"
   },
   {
-    "revision": "11c33a03bf276f53261f",
+    "revision": "87e74fbff1d0232700bf",
     "url": "/lolrecommender-frontend/static/css/main.4faa341a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lolrecommender-frontend/static/js/2.8f612c6e.chunk.js"
   },
   {
-    "revision": "11c33a03bf276f53261f",
-    "url": "/lolrecommender-frontend/static/js/main.100cea6e.chunk.js"
+    "revision": "87e74fbff1d0232700bf",
+    "url": "/lolrecommender-frontend/static/js/main.c83b5089.chunk.js"
   },
   {
     "revision": "4aed07b3abdbd575c765",
